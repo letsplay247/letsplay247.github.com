@@ -36,7 +36,7 @@ window.RufflePlayer.config = {
     "preloader": false,
 };
             document.addEventListener("DOMContentLoaded", function () {
-                let swf = '//f.kbhgames.com/2018/swf/bloxerz.swf';
+                let swf = './game.swf';
                 if (swf) {
                     let ruffle = window.RufflePlayer.newest();
                     let player = Object.assign(document.getElementById("container").appendChild(ruffle.createPlayer()), {
